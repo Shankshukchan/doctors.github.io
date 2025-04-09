@@ -1203,3 +1203,60 @@ body.nav-active { overflow: hidden; }
 .btn-text:hover {
   color: #0056b3;
 }
+/* services section */
+
+.services {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services .section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.services .section-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.services .service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.services .service-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.services .service-card:hover {
+  transform: translateY(-10px);
+}
+
+.services .service-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.services .service-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.services .service-card p {
+  font-size: 1rem;
+  color: #666;
+}

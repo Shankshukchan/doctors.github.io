@@ -55,7 +55,7 @@
     - #HEADER
   -->
 
-    <header class="header" data-header>
+    <header class="header" data-header style="background-color: hsl(186, 72%, 24%);">
       <div class="container">
         <a href="#" class="logo">
           <img
@@ -150,101 +150,286 @@
         <div class="overlay" data-nav-toggler data-overlay></div>
       </div>
     </header>
-
-    <section class="section doctors" aria-labelledby="doctors-label">
-        <div class="container">
-        <br>
-          <h2 class="section-title headline-md text-center" style="color: white;">
-            Meet Our Specialists
-          </h2>
-          <p class="section-subtitle title-lg text-center" id="doctors-label" style="color: white;">
-            Our Doctors
+<!-- main -->
+    <!--  blog -->
+<!-- <section class="blog-section" id="blog">
+    <div class="container">
+      <h2 class="section-title">Latest Blog Posts</h2>
+      <p class="section-description">
+        Stay updated with the latest health tips and news from our experts.
+      </p>
+      <div class="blog-cards">
+        <div class="blog-card">
+          <img src="./assets/images/blog1.jpg" alt="Blog 1" class="blog-image" />
+          <h3 class="blog-title">5 Tips for a Healthy Lifestyle</h3>
+          <p class="blog-excerpt">
+            Discover simple yet effective tips to maintain a healthy lifestyle.
           </p>
-          <ul class="doctors-list">
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
+          <a href="#" class="btn-text">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img src="./assets/images/blog2.jpg" alt="Blog 2" class="blog-image" />
+          <h3 class="blog-title">Understanding Mental Health</h3>
+          <p class="blog-excerpt">
+            Learn about the importance of mental health and how to take care of it.
+          </p>
+          <a href="#" class="btn-text">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img src="./assets/images/blog3.jpg" alt="Blog 3" class="blog-image" />
+          <h3 class="blog-title">The Benefits of Regular Exercise</h3>
+          <p class="blog-excerpt">
+            Explore how regular exercise can improve your overall well-being.
+          </p>
+          <a href="#" class="btn-text">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ -->
+
+<!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label" id="blog" style="background-image:none">
+        <div class="container">
+
+          <h2
+            class="section-title headline-md text-center"
+            data-reveal="bottom" style="padding-top: 150px; margin-bottom: 40px;"
+          >
+            Latest Articles
+          </h2>
+
+          <ul class="grid-list">
+            <li>
+              <div
+                class="blog-card has-before has-after"
+                data-reveal="bottom"
+              >
+                <div class="meta-wrapper">
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  Could intermittent fasting reduce breast cancer
+                </h3>
+
+                <time class="title-sm date" datetime="2022-01-28"
+                  >28 January, 2022</time
+                >
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+              </div>
             </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-2.jpg"
-                alt="Dr. Jane Smith"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. Jane Smith</h3>
-              <p class="doctor-specialty">Dermatologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
+
+            <li>
+              <div
+                class="blog-card has-before has-after"
+                data-reveal="bottom"
+              >
+                <div class="meta-wrapper">
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  Give children more autonomy during the pandemic
+                </h3>
+
+                <time class="title-sm date" datetime="2022-01-28"
+                  >28 January, 2022</time
+                >
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+              </div>
             </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/about-banner.png"
-                alt="Dr. Emily Johnson"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. Emily Johnson</h3>
-              <p class="doctor-specialty">Pediatrician</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
+
+            <li>
+              <div
+                class="blog-card has-before has-after"
+                data-reveal="bottom"
+              >
+                <div class="meta-wrapper">
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Admin</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Specialist</span>
+                  </div>
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  How do binge eating and drinking impact the liver?
+                </h3>
+
+                <time class="title-sm date" datetime="2022-01-28"
+                  >28 January, 2022</time
+                >
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat
+                </p>
+
+                <a href="#" class="btn-text title-lg">Read More</a>
+              </div>
             </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/icon-5.png"
-                alt="Dr. Michael Brown"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. Michael Brown</h3>
-              <p class="doctor-specialty">Orthopedic Surgeon</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
+
+            <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+  
+                      <span class="span">By Admin</span>
+                    </div>
+  
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+  
+                      <span class="span">Specialist</span>
+                    </div>
+                  </div>
+  
+                  <h3 class="headline-sm card-title">
+                    Could intermittent fasting reduce breast cancer
+                  </h3>
+  
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 January, 2022</time
+                  >
+  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat
+                  </p>
+  
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+  
+                      <span class="span">By Admin</span>
+                    </div>
+  
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+  
+                      <span class="span">Specialist</span>
+                    </div>
+                  </div>
+  
+                  <h3 class="headline-sm card-title">
+                    Could intermittent fasting reduce breast cancer
+                  </h3>
+  
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 January, 2022</time
+                  >
+  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat
+                  </p>
+  
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
+
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+  
+                      <span class="span">By Admin</span>
+                    </div>
+  
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+  
+                      <span class="span">Specialist</span>
+                    </div>
+                  </div>
+  
+                  <h3 class="headline-sm card-title">
+                    Could intermittent fasting reduce breast cancer
+                  </h3>
+  
+                  <time class="title-sm date" datetime="2022-01-28"
+                    >28 January, 2022</time
+                  >
+  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat
+                  </p>
+  
+                  <a href="#" class="btn-text title-lg">Read More</a>
+                </div>
+              </li>
           </ul>
         </div>
       </section>
-       
+
+
     <!-- 
     - #FOOTER
   -->

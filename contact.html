@@ -55,7 +55,7 @@
     - #HEADER
   -->
 
-    <header class="header" data-header>
+    <header class="header" data-header style="background-color: hsl(186, 72%, 24%);">
       <div class="container">
         <a href="#" class="logo">
           <img
@@ -150,104 +150,42 @@
         <div class="overlay" data-nav-toggler data-overlay></div>
       </div>
     </header>
+    <!--
+    - #HEADER END
+    -->
+    <!--contact section -->
+    <ul class="doctors-list">
+        <li class="doctor-card">
+          <section class="contact-us" id="contact">
+            <div class="container">
+              <h2 class="section-title">Contact Us</h2>
+              <p class="section-description">
+                Have questions or need assistance? Get in touch with us.
+              </p>
+              <div class="contact-form-wrapper">
+                <form action="https://formspree.io/f/mldjvvor" method="POST" class="contact-form">
+                  <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn-circle">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </section>
 
-    <section class="section doctors" aria-labelledby="doctors-label">
-        <div class="container">
-        <br>
-          <h2 class="section-title headline-md text-center" style="color: white;">
-            Meet Our Specialists
-          </h2>
-          <p class="section-subtitle title-lg text-center" id="doctors-label" style="color: white;">
-            Our Doctors
-          </p>
-          <ul class="doctors-list">
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-2.jpg"
-                alt="Dr. Jane Smith"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. Jane Smith</h3>
-              <p class="doctor-specialty">Dermatologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/about-banner.png"
-                alt="Dr. Emily Johnson"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. Emily Johnson</h3>
-              <p class="doctor-specialty">Pediatrician</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/icon-5.png"
-                alt="Dr. Michael Brown"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. Michael Brown</h3>
-              <p class="doctor-specialty">Orthopedic Surgeon</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-            <li class="doctor-card">
-              <img
-                src="./assets/images/doctor-1.jpg"
-                alt="Dr. John Doe"
-                class="doctor-img"
-              />
-              <h3 class="doctor-name">Dr. John Doe</h3>
-              <p class="doctor-specialty">Cardiologist</p>
-              <a href="#" class="btn-text title-md">View Profile</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-       
-    <!-- 
-    - #FOOTER
-  -->
+        </li>
+    </ul>
+      
+    <!---#FOOTER-->
 
     <footer
       class="footer"

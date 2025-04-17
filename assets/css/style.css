@@ -1279,3 +1279,81 @@ body.nav-active { overflow: hidden; }
 .contact-form button:hover {
   background-color:hsl(186, 93%, 16%)
 }
+
+/* Login Page Styles */
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(186, 72%, 24%);
+}
+
+.login-form {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h1 {
+  font-size: var(--headline-md);
+  margin-bottom: 20px;
+  color: var(--midnight-green);
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: var(--fw-500);
+  color: var(--independece);
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--gainsboro);
+  border-radius: var(--radius-6);
+  font-size: var(--title-md);
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: hsl(186, 72%, 24%);
+  color: var(--white);
+  font-size: var(--title-md);
+  font-weight: var(--fw-700);
+  border: none;
+  border-radius: var(--radius-6);
+  cursor: pointer;
+  transition: var(--transition-1);
+}
+
+.login-form button:hover {
+  background-color: var(--ming);
+}
+
+.login-form .register-link {
+  display: block;
+  margin-top: 20px;
+  font-size: var(--title-sm);
+  color: var(--verdigris);
+  text-decoration: none;
+  transition: var(--transition-1);
+}
+
+.login-form .register-link:hover {
+  color: var(--ming);
+}
+.blogList{display: grid;
+  gap: 40px 28px;}
+
+

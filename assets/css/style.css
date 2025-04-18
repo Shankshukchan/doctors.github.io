@@ -21,13 +21,13 @@
    */
 
   --rich-black-fogra-29: hsl(222, 44%, 8%);
-  --middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
-  --midnight-green: hsl(186, 100%, 19%);
-  --midnight-green_a25: hsla(186, 100%, 19%, 0.25);
-  --independece: hsl(236, 14%, 39%);
-  --verdigris: hsl(182, 100%, 35%);
-  --ming: hsl(186, 72%, 24%);
-  --space-cadet: hsla(226, 45%, 24%);
+  --middle-blue-green_40: hsla(0, 64%, 71%, 0.4);
+  --midnight-green: hsl(349, 93%, 47%);
+  --midnight-green_a25: hsla(355, 100%, 19%, 0.25);
+  --independece: hsla(0, 64%, 71%, 0.4);
+  --verdigris: hsl(349, 75%, 12%);
+  --ming: hsl(349, 93%, 47%);
+  --space-cadet: rgb(89, 34, 35);
   --eerie-black: hsl(0, 0%, 13%);
   --alice-blue: hsl(187, 25%, 94%);
   --gray-web: hsl(0, 0%, 50%);
@@ -1151,7 +1151,7 @@ body.nav-active { overflow: hidden; }
 /* Doctors Section */
 .section.doctors {
   padding: 60px 0;
-  background-color: hsl(186, 72%, 24%);
+  background-color: hsl(349, 93%, 47%);
 }
 
 .doctors-list {
@@ -1196,14 +1196,14 @@ body.nav-active { overflow: hidden; }
 }
 
 .btn-text {
-  color: #007bff;
+  color: #ff0000;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .btn-text:hover {
-  color: #0056b3;
+  color: #b30000;
 }
 
 /* contact */
@@ -1261,14 +1261,14 @@ body.nav-active { overflow: hidden; }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color:hsl(186, 72%, 24%);
+  border-color:hsl(349, 93%, 47%);
 }
 
 .contact-form button {
   padding: 10px 20px;
   /* font-size: 2rem; */
   color: #fff;
-  background-color: hsl(186, 72%, 24%);
+  background-color: hsl(349, 93%, 47%);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -1288,7 +1288,7 @@ body.nav-active { overflow: hidden; }
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: hsl(186, 72%, 24%);
+  background-color: hsl(349, 93%, 47%);
 }
 
 .login-form {
@@ -1327,7 +1327,7 @@ body.nav-active { overflow: hidden; }
 .login-form button {
   width: 100%;
   padding: 12px;
-  background-color: hsl(186, 72%, 24%);
+  background-color: hsl(349, 93%, 47%);
   color: var(--white);
   font-size: var(--title-md);
   font-weight: var(--fw-700);
